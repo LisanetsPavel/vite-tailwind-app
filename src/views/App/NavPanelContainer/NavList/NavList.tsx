@@ -7,6 +7,7 @@ export default function NavList() {
       <ul>
         <NavItem to={AppRoutes.Dashboard}>Dashboard</NavItem>
         <NavItem to={AppRoutes.Reports}>Reports</NavItem>
+        <NavItem to={AppRoutes.Gallery}>Gallery</NavItem>
       </ul>
     </section>
   );

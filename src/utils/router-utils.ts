@@ -3,6 +3,7 @@ enum AppRoutes {
   Home = '/',
   Dashboard = '/dashboard',
   Reports = '/reports',
+  Gallery = '/gallery',
 }
 
 export { AppRoutes };

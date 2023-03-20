@@ -38,7 +38,6 @@ export default function HomePage() {
             est sit amet. Faucibus turpis in eu mi bibendum neque egestas.
           </p>
         </div>
-
         <img
           alt=""
           className="xl:w-6/12 p-4 hover:brightness-200"
