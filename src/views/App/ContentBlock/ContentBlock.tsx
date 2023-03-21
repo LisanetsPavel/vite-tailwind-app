@@ -7,7 +7,7 @@ import { GalleryContainer } from '@/views/Gallery';
 
 export default function ContentBlock() {
   return (
-    <div className="bg-blue-200 flex grow p-4 dark:bg-neutral-600">
+    <div className="bg-amber-50 flex grow p-4 dark:bg-neutral-600 h-full">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path={AppRoutes.Dashboard} element={<DashboardPage />} />

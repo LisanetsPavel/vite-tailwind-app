@@ -8,7 +8,9 @@ export default function Table({ rows, columns }: Props) {
     <table className="shadow-lg bg-white border-collapse">
       <tr>
         {columns.map((column) => (
-          <th className="bg-blue-100 text-left px-8 py-4">{column.name}</th>
+          <th className="bg-blue-100 border border-blue-100 text-left px-8 py-4">
+            {column.name}
+          </th>
         ))}
       </tr>
       {rows.map((row) => (
